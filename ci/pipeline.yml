@@ -20,6 +20,6 @@ jobs:
     trigger: true
   - task: tests
     file: flight-school/build.yml
-  - put: statging-app
+  - put: staging-app
       params:
         manifest: flight-school/mainifest.yml
