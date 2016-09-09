@@ -5,5 +5,4 @@ set -e -x
 pushd flight-school
   bundle install
   bundle exec rspec
-  ls
 popd
